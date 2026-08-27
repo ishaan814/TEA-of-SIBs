@@ -19,7 +19,7 @@ recovery can be added, none of which BatPaC contains.
 | File | What it is |
 |---|---|
 | `app.py` | The model. This is the file you run. |
-| `sib_studies.json` | The seven saved studies (S1–S7) plus the NMC811-G validation case. Needed to reproduce the results. |
+| `sib_studies.json` | The seven saved studies (S1-S7) plus the NMC811-G validation case. Needed to reproduce the results. |
 | `check_batpac.py` | Utility that reads the BatPaC v5.2 workbook directly with `openpyxl`, used to extract parameter values the published manual does not state. |
 | `TEA v1` … `v9` | Development history. Superseded snapshots kept for transparency; not needed to run anything. |
 
@@ -53,8 +53,8 @@ Then work through the modules in order:
 5. **Module 05 - Sustainability and LCOS.** Material intensity, embodied carbon,
    levelised cost of storage, end-of-life recovery.
 
-Modules 06 to 08 re-run the 01–04 chain under varied inputs and can be run in any
-order once 01–05 have been run:
+Modules 06 to 08 re-run the 01-04 chain under varied inputs and can be run in any
+order once 01-05 have been run:
 
 - **Module 06 - Sensitivity and Chemistry Comparison.** Tornado chart, the
   four-chemistry comparison, and the cost bridge.
